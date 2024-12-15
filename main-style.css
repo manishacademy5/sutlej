@@ -541,6 +541,17 @@ h1.banner-text span {
         font-size: 2em;
     	line-height: 40px;
     }
+
+	.mob-none{
+		display: none;
+	}
+
+	p .mob-none{
+		display: none;
+	}
+	.mob-none{
+		display: none;
+	}
 }
 h1.split-title {
 	font-size: 3.5em;
@@ -729,6 +740,7 @@ h1.split-title {
 }
 .big-title h1 {
 	font-size: 60px;
+	text-align: center;
 }
 
 .main-slider .slide-psm {
@@ -5881,6 +5893,13 @@ nav {
 	  #headertop{
 		display: none;
 	  }
+	  .mob-none{
+		display: none;
+	}
+
+	mob-h1{
+		font-size: 5rem;
+	}
 	  #col6{
 		display: flex;
 		align-items: center;
@@ -5888,6 +5907,9 @@ nav {
 		flex-direction: column;
 		padding: 2rem;
 	  }
+	  h1{
+		font-size: 5rem;
+	}
 
   }
   @media screen and (max-width: 450px){
@@ -5899,12 +5921,18 @@ nav {
 	.outer-big-title{
 		display: none;
 	}
+	.mob-none{
+		display: none;
+	}
 	#imageslide{
 		width: 73vw;
         padding: 1rem;
         height: 45vh;
         margin-left: 44px;
     
+	}
+	mob-h1{
+		font-size: 5rem;
 	}
   }
   @media screen and (max-width: 320px){
@@ -5913,6 +5941,12 @@ nav {
 		height: 100%;
 		overflow-x: hidden;
 
+	}
+	.mob-none{
+		display: none;
+	}
+	mob-h1{
+		font-size: 5rem;
 	}
 	#input{
 		width: 52vw;

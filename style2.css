@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/gallery/products/arteum-ro-KiTalJFRkcg-unsplash.jpg");
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+/* 
+  .hero-image{  background-image: url(/src/assets/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: rgb(40, 40, 40);
+    height: 100vh;
+    padding: 140px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  } */
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 80%; /* Prevent text from being too wide */
+  transform: translate(-50%, -50%);
+  
+}
+.hero-image h1{
+    color: white;
+    font: 700;
+    font-size: 6.1rem;
+}
+
+
+.hero-image p{
+   color:  #FBCA00;
+   font-weight: 900;
+   margin-top: 15px;
+   font-size: 25px;
+    }
+
+ .hero-image button{
+    padding: 15px 50px;
+    color: #FBCA00;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+ }   
+
+
+ @media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 5rem; /* Adjust heading size for tablets */
+  }
+
+  .hero-text p {
+    font-size: 1.5rem; /* Adjust paragraph size for tablets */
+  }
+  .mob-w50{
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 4.5rem; /* Smaller heading for mobile */
+  }
+
+  .hero-text p {
+    font-size: 1rem; /* Smaller paragraph text for mobile */
+  }
+  .mob-w50{
+    width: 50%;
+  }
+}

@@ -83,72 +83,8 @@
         = Client Logo
     -------------------------------------------*/
 
-	$(".clients-slider-1").owlCarousel({
-	  loop: true,
-	  items: 1,
-	  dots: false,
-	  nav: false,
-	  autoHeight: false,
-	  touchDrag: true,
-	  mouseDrag: true,
-	  margin: 0,
-	  autoplay: true,
-	  slideSpeed: 200,
-	  navText: ['', ''],
-	  responsive: {
-	    0: {
-	        items: 1,
-	        nav: false,
-	        dots: false,
-	    },
-	    600: {
-	        items: 1,
-	        nav: false,
-	        dots: false,
-	    },
-	    768: {
-	        items: 1,
-	        nav: false,
-	    },
-	    1100: {
-	        items: 1,
-	        nav: false,
-	    }
-	  }
-	});
-
-
+	
     
-
-    /* ---------------------------------------------
-        Clients SliderThree Column
-     --------------------------------------------- */
-
-	if ($('.clients-slider').length) {
-		$('.clients-slider').owlCarousel({
-			loop:true,
-            rtl:true,
-			margin:50,
-			nav:false,
-			dots:false,
-			smartSpeed: 600,
-			autoplay: 5000,
-			responsive:{
-				0:{
-					items:2
-				},
-				600:{
-					items:3
-				},
-				1024:{
-					items:5
-				},
-				1200:{
-					items:5
-				}
-			}
-		});
-	}
 
     /* ---------------------------------------------
         = Services
